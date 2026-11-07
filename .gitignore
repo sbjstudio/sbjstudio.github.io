@@ -1,5 +1,6 @@
 dist/
 node_modules/
+.ig-tmp/
 .DS_Store
 Thumbs.db
 desktop.ini
