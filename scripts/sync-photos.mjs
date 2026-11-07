@@ -176,7 +176,6 @@ async function main() {
   });
 
   const payload = {
-    generatedAt: new Date().toISOString(),
     count: photos.length,
     photos: photos.map(({ mtime, ...rest }) => rest),
   };
