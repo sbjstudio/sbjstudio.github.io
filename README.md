@@ -56,9 +56,9 @@ språk: svenska, all text i gemener. typsnitt: sf pro (`-apple-system`) på appl
 
 ## publicera
 
-`.github/workflows/deploy.yml` bygger och publicerar sidan till github pages vid varje push till `main`.
+sidan publiceras på **https://sbjstudio.github.io/** — det är en user site i organisationen `sbjstudio`, så repot heter `sbjstudio.github.io` och adressen får ingen undersökväg.
 
-**engångssteg:** gå till **settings → pages** i repot och välj **source: github actions**. efter nästa push ligger sidan på `https://<användarnamn>.github.io/shotbyjulian/`.
+`.github/workflows/deploy.yml` bygger och publicerar sidan vid varje push till `main`. pages är redan aktiverat med **source: github actions**, så inga inställningar behöver klickas. vill du ändra adressen igen: `settings → pages` på repot, eller `git remote set-url origin <ny adress>`.
 
 ## bygga manuellt
 
